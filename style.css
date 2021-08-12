@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+body{
+	font-family: Montserrat;
+}
+nav{
+	background-image: url(Navpic.jpg);
+	height: 80px;
+	background-size: cover;
+	background-position: center;
+	width: 100%
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding:0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 2px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 5px 20px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+.banner{
+	display:flex;
+	margin-top: 80px;
+}
+.left-col,.right-col{
+	flex-basis: 50%;
+}
+.right-col img{
+	width: 100%;
+}
+.left-col{
+	width: 80%;
+}
+.spara{
+	padding: 50px 20px;
+	color:#FA5858;
+	font-size: 15px;
+}
+.shead{
+	padding: 50px 20px;
+	font-size: 100px;
+}
+span{
+	color: #f14a60;
+}
+.btn button{
+	padding: 7px 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+	outline: none;
+	border: 1px solid #fb7381;
+	cursor: pointer;
+	color: #fb7381;
+	background: transparent;
+	border-radius: 20px;
+}
+.sec{
+	padding-bottom:350px;
+}
+.mng{
+	height: 1000px;
+}
+.banner1{
+	display:flex;
+	margin-top: 80px;
+}
+.left-col1,.right-col1{
+	flex-basis: 50%;
+}
+.left-col1 img{
+	width: 100%;
+}
+.right-col1{
+	width: 80%;
+}
+.mpara{
+	padding: 50px 20px;
+	color:#FFBF00;
+	font-size: 15px;
+}
+.mhead{
+	padding: 50px 20px;
+	font-size: 100px;
+}
+span1{
+	color: #FFBF00;
+}
+.btn1 button{
+	padding: 7px 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+	outline: none;
+	border: 1px solid #FFBF00;
+	cursor: pointer;
+	color: #FFBF00;
+	background: transparent;
+	border-radius: 20px;
+}
+footer{
+	color: white;
+	bottom: 0px;
+	width: 100%;
+	background: #111
+}
+.footercontent{
+	display: flex;
+}
+.footercontent .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+.box .content{
+	margin: 20px 0 0 0;
+}
